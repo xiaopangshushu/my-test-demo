@@ -22,7 +22,3 @@ function deepClone(obj={},map=new Map()){
     }
     return result;
 }
-
-function isEqual(a,b){
-    return Math.abs(a -b) <Number.EPSILON
-}
